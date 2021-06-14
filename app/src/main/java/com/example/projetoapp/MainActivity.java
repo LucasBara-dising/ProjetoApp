@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
 
+
 public class MainActivity extends AppCompatActivity {
     private Button BtnTelaBemVindo;
 
@@ -24,7 +25,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
    public void Activity2(){
-       Intent intent = new Intent(this, Activity2.class);
-       startActivity(intent);
+       Intent login = new Intent(getApplicationContext(), Activity2.class);
+       startActivity(login);
    }
+
+//    public void Activity2(){
+//        Intent login = new Intent(this, Activity2.class);
+//        startActivity(login);
+//    }
 }
+

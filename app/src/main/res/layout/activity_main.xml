@@ -9,9 +9,9 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    style="@style/AppTheme">
 
-    <!--    POr algum motivo o azul do btn não ta indo-->
 
     <TextView
         android:layout_width="300dp"
@@ -21,18 +21,21 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748" />
+        app:layout_constraintVertical_bias="0.743" />
 
     <Button
         android:id="@+id/BtnTelaBemVindo"
         android:layout_width="220dp"
         android:layout_height="54dp"
         android:layout_marginBottom="64dp"
-        android:background="@color/AzulClaro"
+        android:background="@drawable/borda"
         android:text="@string/TxtBtnBemVindo"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/AzulClaro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -42,7 +45,7 @@
         android:id="@+id/TxtBemVindo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="276dp"
+        android:layout_marginBottom="260dp"
         android:text="@string/BemVindo"
         android:textColor="@color/azulEscuro"
         android:textIsSelectable="false"
@@ -50,6 +53,16 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="267dp"
+        android:layout_height="406dp"
+        android:layout_marginBottom="260dp"
+        android:src="@drawable/traveller_with_luggage_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 

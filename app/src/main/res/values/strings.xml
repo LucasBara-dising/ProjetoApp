@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">ProjetoApp</string>
+<!--    String splash-->
+    <string name="splachHotel">Hotel</string>
+    <string name="splachCity">City</string>
+
     <!--    strings tela Bem vindo-->
     <string name="BemVindo">Bem Vindo</string>
     <string name="TxtBtnBemVindo">Proximo</string>
@@ -15,6 +19,18 @@
     <string name="TxtFormaDeLogin">Entre Com</string>
     <string name="TxtOu">OU</string>
     <string name="TxtShowSenha">Mostrar senha</string>
+
+    <!-- String tela Info Hotel-->
+    <string name="TxtNomeHotel">Hotel Dois Rios</string>
+    <string name="TxtLocHotel">Av.Dos Engenherios 600 - São Paulo,SP</string>
+    <string name="TxtNotaHotel">3.2-bom</string>
+    <string name="TxtTelHotel">40246-2544</string>
+    <string name="TxtBtnReserva">Reservar</string>
+    <string name="TxtValorHotel">R$: 124</string>
+    <string name="TxtInformacoes">Informações</string>
+    <string name="TxtInfoHotel">Este hotel possui quartos confortáveis com uma ótima vista, perto dos melhores pontos turisticos de SP. Perfeito para viagens a negócios ou a turismo.</string>
+    <string name="TxtHotelQuarto">Quarto</string>
+    <string name="TxtdetalhesQuarto">Suit, com 1 cama e acomoda 2 pessoas</string>
 
     <string name="title_activity_login">LoginActivity</string>
     <string name="invalid_username">Not a valid username</string>
