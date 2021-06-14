@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ProjetoApp</string>
+    <!--    strings tela Bem vindo-->
+    <string name="BemVindo">Bem Vindo</string>
+    <string name="TxtBtnBemVindo">Proximo</string>
+    <string name="TextTelaBemVindo">Aqui você encontrará as melhores opções de hospedagem para a sua viagem, seja ela a negócios ou para se divertir com a familia</string>
+
+    <!--    Strings Tela Login-->
+
+    <string name="TxtEmail">Email</string>
+    <string name="Txtsenha">Senha</string>
+    <string name="TxtBtnLogar">Entrar</string>
+    <string name="TxtLogin">Login</string>
+    <string name="TxtLoginBemVindo">Seja Bem vindo!</string>
+    <string name="TxtFormaDeLogin">Entre Com</string>
+    <string name="TxtOu">OU</string>
+    <string name="TxtShowSenha">Mostrar senha</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_tela_login">TelaLogin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+</resources>
