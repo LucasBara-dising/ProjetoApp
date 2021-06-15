@@ -21,10 +21,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<!-- btn sem cor-->
-
-    <!-- Não aparece inone no btn-->
-
     <TextView
         android:id="@+id/txtView1"
         android:layout_width="wrap_content"
@@ -100,7 +96,7 @@
     <EditText
         android:id="@+id/BoxEmail"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="336dp"
         android:layout_marginEnd="24dp"
@@ -158,7 +154,7 @@
     <EditText
         android:id="@+id/BoxSenha"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="24dp"
@@ -177,10 +173,10 @@
         app:layout_constraintTop_toBottomOf="@+id/BoxEmail" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/ckBoxShowSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="472dp"
+        android:layout_marginTop="492dp"
         android:text="@string/TxtShowSenha"
         android:textColor="@color/black"
         app:layout_constraintHorizontal_bias="0.083"

@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity2"></activity>
+        <activity android:name=".TelaResultHotel"></activity>
+        <activity android:name=".Activity2" />
         <activity android:name=".TelaHotel" />
-        <activity android:name=".Splache" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splache">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +21,11 @@
             </intent-filter>
         </activity>
     </application>
-<!--    Activity2-->
-<!--    TelaHotel-->
-<!--    MainActivity-->
+<!--
+    Splache
+    MainActivity
+    Activity2
+    TelaResultHotel
+    TelaHotel-->
+
 </manifest>

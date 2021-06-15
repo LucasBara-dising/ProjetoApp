@@ -1,5 +1,6 @@
 package com.example.projetoapp;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -13,13 +14,13 @@ public class Splache extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splache);
 
-     //   getActionBar().hide();
+       new Handler().postDelayed(new Runnable() {
+           @Override
+           public void run() {
+                startActivity(new Intent(getBaseContext(),MainActivity.class));
+                finish();
+           }
+       },5000);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(new Intent((getBaseContext()),MainActivity.class));
-            }
-        },2000);
     }
 }
