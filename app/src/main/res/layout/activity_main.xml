@@ -61,6 +61,7 @@
         android:layout_width="267dp"
         android:layout_height="406dp"
         android:layout_marginBottom="260dp"
+        android:contentDescription="@string/descImgIconViajante"
         android:src="@drawable/traveller_with_luggage_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

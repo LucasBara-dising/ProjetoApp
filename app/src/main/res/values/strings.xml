@@ -10,7 +10,6 @@
     <string name="TextTelaBemVindo">Aqui você encontrará as melhores opções de hospedagem para a sua viagem, seja ela a negócios ou para se divertir com a familia</string>
 
     <!--    Strings Tela Login-->
-
     <string name="TxtEmail">Email</string>
     <string name="Txtsenha">Senha</string>
     <string name="TxtBtnLogar">Entrar</string>
@@ -42,4 +41,14 @@
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
+
+<!--    descrisão de imagens-->
+    <string name="descImgLogo">Sinal de sino de hotel-logo</string>
+    <string name="descImgIconViajante">Icon de uma pessoa com mala</string>
+    <string name="descImgLogoFacebook">Logo Facebook</string>
+    <string name="descImgLogoGoogle">Logo Google</string>
+    <string name="descImgHotel">Quarto de hotel</string>
+    <string name="descImgEstrela">Icon estrela</string>
+    <string name="descImgtelefone">Icon Telefone</string>
+    <string name="descImgLocalizacao">Icon Localização</string>
 </resources>
