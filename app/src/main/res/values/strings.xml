@@ -19,6 +19,15 @@
     <string name="TxtOu">OU</string>
     <string name="TxtShowSenha">Mostrar senha</string>
 
+    <!--    Strings Tela Home-->
+    <string name="TxtOlaMikhail">Olá, Mikhail!</string>
+    <string name="TxtSubtitleHome">Escolha onde deseja se hospedar.</string>
+    <string name="TxtBarraPesquisa">Pesquise um destino</string>
+    <string name="TxtRecomendados">Recomendados</string>
+    <string name="TxtLegendaRecomendados">Hotéis que lhe oferecem mais flexibilidade</string>
+    <string name="TxtVerMais">Ver Mais</string>
+    <string name="TxtContaOuLogin">Criar conta ou fazer login</string>
+
     <!-- String tela Info Hotel-->
     <string name="TxtNomeHotel">Hotel Dois Rios</string>
     <string name="TxtLocHotel">Av.Dos Engenherios 600 - São Paulo,SP</string>

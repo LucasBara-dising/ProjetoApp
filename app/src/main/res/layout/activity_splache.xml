@@ -8,11 +8,12 @@
     tools:context=".Splache">
 
 <!--    bug na splash-->
+
     <View
         android:id="@+id/circuleSplash"
         android:layout_width="180dp"
         android:layout_height="180dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="204dp"
         android:background="@drawable/circulo1"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -41,7 +42,7 @@
         android:textColor="@color/laranja"
         android:textSize="52sp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintHorizontal_bias="0.301"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -55,7 +56,7 @@
         android:textColor="@color/white"
         android:textSize="52sp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
