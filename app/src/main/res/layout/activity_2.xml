@@ -201,10 +201,10 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/BtnEntrar"
         android:layout_width="245dp"
         android:layout_height="70dp"
-        android:enabled="false"
+        android:enabled="true"
         android:text="@string/TxtBtnLogar"
         android:textColor="@color/white"
         app:background="@drawable/borda"

@@ -27,6 +27,10 @@
     <string name="TxtLegendaRecomendados">Hotéis que lhe oferecem mais flexibilidade</string>
     <string name="TxtVerMais">Ver Mais</string>
     <string name="TxtContaOuLogin">Criar conta ou fazer login</string>
+    <string name="TxtViagens">Viagens</string>
+    <string name="TxtHome">Início</string>
+    <string name="TxtConta">Conta</string>
+    <string name="TxtProcurar">Procurar por um destino</string>
 
     <!-- String tela Info Hotel-->
     <string name="TxtNomeHotel">Hotel Dois Rios</string>

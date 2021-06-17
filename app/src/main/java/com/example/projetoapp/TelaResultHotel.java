@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 
 public class TelaResultHotel extends AppCompatActivity {
     private Button btnResultHotel;
-    private Button BtnVoltaParaHome;
+    private ImageButton ImgVoltaParaHome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,17 +25,21 @@ public class TelaResultHotel extends AppCompatActivity {
             }
         });
 
-//        BtnVoltaParaHome= (ImageButton) findViewById(R.id.ImgBtnVoltaHome);
-//        BtnVoltaParaHome.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                TelaHome();
-//            }
-//        });
+        ImgVoltaParaHome= (ImageButton) findViewById(R.id.ImgBtnVoltaHome);
+        ImgVoltaParaHome.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+                Home();
+           }
+       });
     }
     public void TelaHotel(){
         Intent reserva = new Intent(getApplicationContext(), TelaHotel.class);
         startActivity(reserva);
+    }
+    public void Home(){
+        Intent voltar2 = new Intent(getApplicationContext(), Home.class);
+        startActivity(voltar2);
     }
 
 }
