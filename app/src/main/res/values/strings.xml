@@ -5,8 +5,8 @@
     <string name="splachCity">City</string>
 
     <!--    strings tela Bem vindo-->
-    <string name="BemVindo">Bem Vindo</string>
-    <string name="TxtBtnBemVindo">Proximo</string>
+    <string name="BemVindo">Bem-vindo</string>
+    <string name="TxtBtnBemVindo">Próximo</string>
     <string name="TextTelaBemVindo">Aqui você encontrará as melhores opções de hospedagem para a sua viagem, seja ela a negócios ou para se divertir com a familia</string>
 
     <!--    Strings Tela Login-->
@@ -14,7 +14,7 @@
     <string name="Txtsenha">Senha</string>
     <string name="TxtBtnLogar">Entrar</string>
     <string name="TxtLogin">Login</string>
-    <string name="TxtLoginBemVindo">Seja Bem vindo!</string>
+    <string name="TxtLoginBemVindo">Seja Bem-vindo!</string>
     <string name="TxtFormaDeLogin">Entre Com</string>
     <string name="TxtOu">OU</string>
     <string name="TxtShowSenha">Mostrar senha</string>
@@ -24,7 +24,7 @@
     <string name="TxtSubtitleHome">Escolha onde deseja se hospedar.</string>
     <string name="TxtBarraPesquisa">Pesquise um destino</string>
     <string name="TxtRecomendados">Recomendados</string>
-    <string name="TxtLegendaRecomendados">Hotéis que lhe oferecem mais flexibilidade</string>
+    <string name="TxtLegendaRecomendados">Hotéis que lhe oferecem mais flexibilidade.</string>
     <string name="TxtVerMais">Ver Mais</string>
     <string name="TxtContaOuLogin">Criar conta ou fazer login</string>
     <string name="TxtViagens">Viagens</string>
@@ -32,9 +32,72 @@
     <string name="TxtConta">Conta</string>
     <string name="TxtProcurar">Procurar por um destino</string>
 
-    <!-- String tela Info Hotel-->
+    <!--    Strings Tela Filtro-->
+    <string name="TxtOrdenarFiltrar">Ordenar e filtrar</string>
+    <string name="TxtLimpar">Limpar</string>
+    <string name="TxtOrdenarPor">Ordenar por</string>
+    <string name="TxtBuscaPorNome">Busca por nome do estabelecimento</string>
+    <string name="TxtHotelHilton">por ex. Hotel Hilton</string>
+    <string name="TxtFiltrarPor">Filtrar por</string>
+    <string name="TxtOrcamento">Seu orçamento</string>
+    <string name="TxtClassPorEstr">Classificação por estrelas</string>
+    <string name="TxtTipoPag">Tipo de pagamento</string>
+    <string name="TxtCancelGratis">Cancelamento grátis</string>
+    <string name="TxtReservePagDeps">Reserve agora, pague depois</string>
+    <string name="TxtTipoEst">Tipo de estabelecimento</string>
+    <string name="TxtPousada">Pousada</string>
+    <string name="TxtResort">Resort</string>
+    <string name="TxtChale">Chalé</string>
+    <string name="TxtMotel">Motel</string>
+    <string name="TxtApart">Apartamento</string>
+    <string name="TxtCasa">Casa particular</string>
+    <string name="TxtArea">Área</string>
+    <string name="TxtSP">São Paulo</string>
+    <string name="TxtLocalPop">Locais populares</string>
+    <string name="TxtTodos">Todos</string>
+    <string name="TxtComodidades">Comodidades</string>
+    <string name="TxtCafeIncl">Café da manhã incluído</string>
+    <string name="TxtWiFi">Wi-Fi grátis</string>
+    <string name="TxtEstacIncl">Estacionamento incluído</string>
+    <string name="TxtPiscina">Piscina</string>
+    <string name="TxtSpa">Spa</string>
+    <string name="TxtAceitaAnimais">Aceita animais de estimação</string>
+    <string name="TxtArCond">Ar-condicionado</string>
+    <string name="TxtCozinha">Cozinha</string>
+    <string name="TxtCassino">Cassino</string>
+    <string name="TxtParqAqua">Parque aquático</string>
+    <string name="TxtVistaMar">Vista para o mar</string>
+    <string name="TxtLavSec">Lavadora e secadora</string>
+    <string name="TxtAcess">Acessibilidade</string>
+    <string name="TxtBanhAcess">Banheiro acessível</string>
+    <string name="TxtChuvBarra">Chuveiro com barras de apoio</string>
+    <string name="TxtQuartoAcess">Quartos acessíveis</string>
+    <string name="TxtExp">Experiência do viajante</string>
+    <string name="TxtNegocios">Ideal para negócios</string>
+    <string name="TxtFamilia">Ideal para famílias</string>
+    <string name="TxtDisp">Disponibilidade</string>
+    <string name="TxtOnlyDisp">Mostrar apenas estabelecimentos disponíveis</string>
+    <string name="TxtOK">OK</string>
+
+    <string-array name="exibOrdlist">
+        <item>Recomendados</item>
+        <item>Preço</item>
+        <item>Melhores ofertas</item>
+        <item>Classificação por estrelas</item>
+        <item>Distância do centro da cidade</item>
+    </string-array>
+
+    <string-array name="exibNomEstablist">
+        <item>Recomendados</item>
+        <item>Preço</item>
+        <item>Melhores ofertas</item>
+        <item>Classificação por estrelas</item>
+        <item>Distância do centro da cidade</item>
+    </string-array>
+
+    <!--    String tela Info Hotel-->
     <string name="TxtNomeHotel">Hotel Dois Rios</string>
-    <string name="TxtLocHotel">Av.Dos Engenherios 600 - São Paulo,SP</string>
+    <string name="TxtLocHotel">Av.Dos Engenheiros 600 - São Paulo,SP</string>
     <string name="TxtNotaHotel">3.2-bom</string>
     <string name="TxtTelHotel">40246-2544</string>
     <string name="TxtBtnReserva">Reservar</string>
@@ -53,9 +116,8 @@
 
 
     <!--    tela String Resultado de pesquisa-->
-    <string name="TxtHotel">Hoteis</string>
-
-
+    <string name="TxtHotel">Hotéis recomendados</string>
+    <string name="TxtSubHotelResult">Uma ótima seleção de hóteis que oferecem boa qualidade e cancelamento grátis caso seus planos mudem.</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>

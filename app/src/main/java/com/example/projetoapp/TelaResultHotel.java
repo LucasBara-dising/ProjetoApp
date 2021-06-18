@@ -11,12 +11,22 @@ import android.widget.ImageButton;
 public class TelaResultHotel extends AppCompatActivity {
     private Button btnResultHotel;
     private ImageButton ImgVoltaParaHome;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_result_hotel);
 
         btnResultHotel= (Button) findViewById(R.id.btnReserva);
+        btnResultHotel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            //ligaçao entre resulta e tela de hotel
+            public void onClick(View v) {
+                TelaHotel();
+            }
+        });
+
+        btnResultHotel= (Button) findViewById(R.id.btnReserva1);
         btnResultHotel.setOnClickListener(new View.OnClickListener() {
             @Override
             //ligaçao entre resulta e tela de hotel

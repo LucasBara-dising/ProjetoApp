@@ -4,12 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Home extends AppCompatActivity {
     private Button BtnVerMais;
     private Button BtnCriarLogin;
+    private ImageButton ImgFiltro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,12 @@ public class Home extends AppCompatActivity {
                 Activity2();
             }
         });
+
+        ImgFiltro= (ImageButton) findViewById(R.id.imgBtnFiltro);
+        ImgFiltro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { Filtro(); }
+        });
     }
 
     public void TelaResultHotel() {
@@ -40,5 +48,9 @@ public class Home extends AppCompatActivity {
     public void Activity2() {
         Intent voltar = new Intent(getApplicationContext(), Activity2.class);
         startActivity(voltar);
+    }
+    public void Filtro() {
+        Intent filtro = new Intent(getApplicationContext(), Filtro.class);
+        startActivity(filtro);
     }
 }
