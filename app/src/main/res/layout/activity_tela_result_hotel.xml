@@ -6,8 +6,6 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".TelaResultHotel">
 
-
-
     <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -22,18 +20,19 @@ tools:context=".TelaResultHotel">
 
             <View
                 android:id="@+id/myRectangleView"
-                android:layout_width="480dp"
+                android:layout_width="match_parent"
                 android:layout_height="45dp"
-                android:layout_marginLeft="-14dp"
+                android:layout_marginStart="-14dp"
                 android:background="@color/AzulClaro" />
 
             <ImageButton
                 android:id="@+id/ImgBtnVoltaHome"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
                 android:layout_marginTop="-37dp"
                 android:background="#00FFFFFF"
+                android:contentDescription="@string/descImgSeta"
                 android:scaleType="centerInside"
                 app:srcCompat="?attr/actionModeCloseDrawable" />
 
@@ -43,7 +42,7 @@ tools:context=".TelaResultHotel">
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="-25dp"
-                android:layout_marginRight="63dp"
+                android:layout_marginStart="0dp"
                 android:layout_marginEnd="63dp"
                 android:text="@string/TxtHotel"
                 android:textColor="@color/white"
@@ -74,7 +73,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/textView25"
                 android:layout_width="310dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="-353dp"
+                android:layout_marginStart="-353dp"
                 android:layout_marginTop="50dp"
                 android:text="@string/TxtSubHotelResult"
                 android:textAlignment="center"
@@ -98,6 +97,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/imageView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/descImgHotel"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/quartohotel" />
 
@@ -105,7 +105,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="208dp"
                 android:text="@string/TxtNomeHotel"
                 android:textColor="@color/black"
@@ -120,7 +120,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/imageView8"
                 android:layout_width="25dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="252dp"
                 android:contentDescription="@string/descImgLocalizacao"
                 app:layout_constraintHorizontal_bias="0.02"
@@ -133,7 +133,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginTop="255dp"
                 android:text="@string/TxtLocHotel"
                 android:textSize="14sp"
@@ -146,7 +146,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/imageView10"
                 android:layout_width="25dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="296dp"
                 android:contentDescription="@string/descImgEstrela"
                 app:layout_constraintHorizontal_bias="0.018"
@@ -159,22 +159,18 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginTop="300dp"
+                android:text="@string/TxtValorHotel"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintHorizontal_bias="0.134"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 tools:text="@string/TxtNotaHotel" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="360dp"
                 android:text="@string/TxtValorHotel"
                 android:textColor="@color/black"
@@ -185,7 +181,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/btnReserva1"
                 android:layout_width="118dp"
                 android:layout_height="60dp"
-                android:layout_marginLeft="160dp"
+                android:layout_marginStart="160dp"
                 android:layout_marginTop="344dp"
                 android:text="@string/TxtBtnReserva"
                 android:textColor="@color/white"
@@ -208,7 +204,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginTop="300dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -219,7 +215,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/imageView4"
                 android:layout_width="25dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="249dp"
                 android:contentDescription="@string/descImgLocalizacao"
                 app:layout_constraintHorizontal_bias="0.02"
@@ -232,7 +228,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/imageView5"
                 android:layout_width="25dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="297dp"
                 android:contentDescription="@string/descImgEstrela"
                 app:layout_constraintHorizontal_bias="0.018"
@@ -245,7 +241,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/btnReserva"
                 android:layout_width="118dp"
                 android:layout_height="60dp"
-                android:layout_marginLeft="160dp"
+                android:layout_marginStart="160dp"
                 android:layout_marginTop="344dp"
                 android:text="@string/TxtBtnReserva"
                 android:textColor="@color/white"
@@ -256,7 +252,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginTop="255dp"
                 android:text="@string/TxtLocHotel"
                 android:textSize="14sp"
@@ -269,7 +265,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="360dp"
                 android:text="@string/TxtValorHotel"
                 android:textColor="@color/black"
@@ -280,7 +276,7 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="208dp"
                 android:clickable="false"
                 android:text="@string/TxtNomeHotel"
@@ -292,15 +288,11 @@ tools:context=".TelaResultHotel">
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/descImgHotel"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/quartohotel" />
         </androidx.cardview.widget.CardView>
 
-
-        <!--            android:layout_marginLeft="20dp"-->
-
-
     </LinearLayout>
-
 
 </ScrollView>
