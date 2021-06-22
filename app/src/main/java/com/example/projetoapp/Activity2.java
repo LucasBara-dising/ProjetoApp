@@ -13,8 +13,8 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 
 public class Activity2 extends AppCompatActivity {
-private Button BtnEntrar;
 
+    Button btnlogin;
     EditText senha;
     CheckBox visibilidadeSenha;
     @Override
@@ -35,16 +35,15 @@ private Button BtnEntrar;
                 }
             }
         });
-            BtnEntrar=(Button) findViewById(R.id.BtnEntrar);
-            BtnEntrar.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick (View v){
-                Home();
-            }
-            });
-        }
-            public void Home() {
+
+        btnlogin=(Button) findViewById(R.id.btnlogin);
+        btnlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View v){
                 Intent inicio = new Intent(getApplicationContext(), Home.class);
                 startActivity(inicio);
             }
+        });
     }
+}
+

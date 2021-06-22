@@ -98,7 +98,7 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="336dp"
+        android:layout_marginTop="340dp"
         android:layout_marginEnd="24dp"
         android:autofillHints="@string/TxtEmail"
         android:background="@drawable/borda"
@@ -201,7 +201,7 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <Button
-        android:id="@+id/BtnEntrar"
+        android:id="@+id/btnlogin"
         android:layout_width="245dp"
         android:layout_height="70dp"
         android:enabled="true"

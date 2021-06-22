@@ -42,7 +42,7 @@
         android:textColor="@color/laranja"
         android:textSize="52sp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
