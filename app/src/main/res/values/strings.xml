@@ -78,6 +78,13 @@
     <string name="TxtDisp">Disponibilidade</string>
     <string name="TxtOnlyDisp">Mostrar apenas estabelecimentos disponíveis</string>
     <string name="TxtOK">OK</string>
+    <string name="TxtZERO">R$ 0</string>
+    <string name="TxtOITOMAIS">R$800+</string>
+    <string name="TxtUM">1</string>
+    <string name="TxtDOIS">2</string>
+    <string name="TxtTRES">3</string>
+    <string name="TxtQUATRO">4</string>
+    <string name="TxtCINCO">5</string>
 
     <string-array name="exibOrdlist">
         <item>Recomendados</item>
@@ -87,12 +94,38 @@
         <item>Distância do centro da cidade</item>
     </string-array>
 
-    <string-array name="exibNomEstablist">
-        <item>Recomendados</item>
-        <item>Preço</item>
-        <item>Melhores ofertas</item>
-        <item>Classificação por estrelas</item>
-        <item>Distância do centro da cidade</item>
+    <string-array name="exibArealist">
+        <item>São Paulo</item>
+        <item>Santo Amaro</item>
+        <item>Tatuapé</item>
+        <item>Barra Funda</item>
+        <item>Alphaville</item>
+        <item>Moema</item>
+        <item>Vila Mariana</item>
+        <item>Itaim Bibi</item>
+        <item>Zona Central</item>
+        <item>Itaquera</item>
+        <item>Osasco</item>
+        <item>Estação Perus de São Paulo</item>
+        <item>Jardins</item>
+        <item>Brás</item>
+        <item>Guarulhos</item>
+        <item>Santo André</item>
+        <item>Interlagos</item>
+        <item>Mogi das Cruzes</item>
+    </string-array>
+
+    <string-array name="exibLocalPoplist">
+        <item>Todos</item>
+        <item>Magic City</item>
+        <item>Parque Ibirapuera</item>
+        <item>Avenida Paulista</item>
+        <item>Shopping Eldorado</item>
+        <item>Estádio do Morumbi</item>
+        <item>Shopping do Center Norte</item>
+        <item>Shopping Morumbi</item>
+        <item>Rua 25 de Março</item>
+        <item>Shoppig Metro Santa Cruz</item>
     </string-array>
 
     <!--    String tela Info Hotel-->

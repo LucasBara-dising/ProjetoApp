@@ -1,11 +1,13 @@
 package com.example.projetoapp;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.Spinner;
+import android.widget.ToggleButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,12 +26,12 @@ private ImageButton ImgVoltaParaHome2;
             public void onClick(View v) { Home2(); }
         });
 
+
         caixa = (Spinner)findViewById(R.id.spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.exibOrdlist, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         caixa.setAdapter(adapter);
-
         }
 
     public void Home2(){
