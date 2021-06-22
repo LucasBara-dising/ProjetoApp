@@ -647,7 +647,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="9dp"
-        android:layout_marginEnd="165dp"
+        android:layout_marginEnd="164dp"
         android:text="@string/TxtOrdenarFiltrar"
         android:textColor="@color/white"
         android:textSize="18sp"
