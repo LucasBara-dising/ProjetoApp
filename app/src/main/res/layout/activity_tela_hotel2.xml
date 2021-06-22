@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="5dp"
     android:background="@color/white"
     tools:context=".TelaHotel">
 
@@ -18,7 +19,7 @@
             android:layout_height="196dp"
             android:contentDescription="@string/descImgHotel"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/quartohotel" />
+            app:srcCompat="@drawable/imghotel2" />
 
         <TextView
             android:id="@+id/textView"
@@ -59,15 +60,17 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/star" />
 
-        <ImageView
-            android:id="@+id/imageView4"
+        <ImageButton
+            android:id="@+id/btnImageLoc"
             android:layout_width="25dp"
             android:layout_height="30dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="300dp"
             android:layout_marginEnd="-50dp"
             android:layout_toStartOf="@+id/txtLocHotel"
+            android:background="@color/white"
             android:contentDescription="@string/descImgLocalizacao"
+            android:scaleType="centerCrop"
             app:layout_constraintHorizontal_bias="0.103"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -117,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="252dp"
             android:layout_marginStart="250dp"
-            android:gravity="right"
+            android:gravity="end"
             android:text="@string/TxtValorHotel"
             android:textColor="@color/black"
             android:textSize="20sp" />
@@ -140,7 +143,7 @@
             android:layout_marginTop="524dp"
             android:layout_marginStart="20dp"
             android:fontFamily="sans-serif"
-            android:gravity="left"
+            android:gravity="start"
             android:text="@string/TxtInfoHotel"
             android:textColor="@color/black"
             app:layout_constraintHorizontal_bias="0.514"
@@ -265,5 +268,30 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtviewdata"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="820dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/borda"
+            android:text="@string/DataCheckIN"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/calendar__1_" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="790dp"
+            android:layout_marginBottom="100dp"
+            android:text="@string/TxtSelctData"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
     </RelativeLayout>
 </ScrollView>

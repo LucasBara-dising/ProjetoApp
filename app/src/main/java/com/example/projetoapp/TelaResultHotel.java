@@ -12,6 +12,7 @@ public class TelaResultHotel extends AppCompatActivity {
     private Button btnResultHotel;
     private ImageButton ImgVoltaParaHome;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

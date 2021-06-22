@@ -99,7 +99,7 @@ tools:context=".TelaResultHotel">
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/descImgHotel"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/quartohotel" />
+                app:srcCompat="@drawable/imghotel2" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -206,10 +206,10 @@ tools:context=".TelaResultHotel">
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="300dp"
+                android:text="@string/TxtValorHotelTelaResult"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                tools:text="@string/TxtNotaHotel" />
+                tools:text="@string/TxtNotaHotelTelaResult" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -254,7 +254,7 @@ tools:context=".TelaResultHotel">
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="255dp"
-                android:text="@string/TxtLocHotel"
+                android:text="@string/TxtLocHotelTelaResult"
                 android:textSize="14sp"
                 app:layout_constraintHorizontal_bias="0.289"
                 app:layout_constraintLeft_toLeftOf="@id/imageView5"
@@ -267,19 +267,19 @@ tools:context=".TelaResultHotel">
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="360dp"
-                android:text="@string/TxtValorHotel"
+                android:text="@string/TxtValorHotelTelaResult"
                 android:textColor="@color/black"
                 android:textSize="24sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="208dp"
+                android:layout_marginTop="190dp"
                 android:clickable="false"
-                android:text="@string/TxtNomeHotel"
+                android:text="@string/TxtNomeHotelTelaResult"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -287,10 +287,10 @@ tools:context=".TelaResultHotel">
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="187dp"
                 android:contentDescription="@string/descImgHotel"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/quartohotel" />
+                app:srcCompat="@drawable/imghotel1" />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>

@@ -112,22 +112,25 @@
     <string name="TxtSevisos3">Piscina</string>
     <string name="TxtSevisos4">Ar-condicionado</string>
     <string name="TxtSevisos5">Frigobar</string>
+    <string name="TxtSelctData">Selecione a Data</string>
 
+<!--    tela calendario-->
+    <string name="CkeckIn">Chek-in</string>
+    <string name="Ckeckout">Chek-out</string>
+    <string name="DataCheckIN">16 de Mai</string>
+    <string name="txtCancel">Cancelar</string>
+    <string name="txtConfirme">Confirmar</string>
 
 
     <!--    tela String Resultado de pesquisa-->
     <string name="TxtHotel">Hotéis recomendados</string>
     <string name="TxtSubHotelResult">Uma ótima seleção de hóteis que oferecem boa qualidade e cancelamento grátis caso seus planos mudem.</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
-    <string name="title_activity_tela_login">TelaLogin</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
+    <string name="TxtNomeHotelTelaResult">Maksoud Plaza Distributed by Accorhotels</string>
+    <string name="TxtLocHotelTelaResult">São Carlos do Pinhal, 424, Bela Vista, São Paulo, CEP 01333-000, Brasil</string>
+    <string name="TxtNotaHotelTelaResult">4.2-Muito bom</string>
+    <string name="TxtTelHotelTelaResult">(11)40859500</string>
+    <string name="TxtValorHotelTelaResult">R$: 290</string>
+
 
     <!--    descrisão de imagens-->
     <string name="descImgLogo">Sinal de sino de hotel-logo</string>
