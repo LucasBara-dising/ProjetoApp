@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +13,8 @@ public class Home extends AppCompatActivity {
     Button BtnVerMais;
     Button BtnCriarLogin;
     ImageButton BtnFiltro;
+    private ImageView ImgConta;
+    private ImageView ImgViagens;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,5 +49,17 @@ public class Home extends AppCompatActivity {
                 startActivity(filtro);
             }
         });
+
+        ImgConta= (ImageView) findViewById(R.id.imgBtnConta2);
+        ImgConta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Conta();
+            }
+        });
+    }
+    public void Conta(){
+        Intent irConta = new Intent(getApplicationContext(), Conta.class);
+        startActivity(irConta);
     }
 }

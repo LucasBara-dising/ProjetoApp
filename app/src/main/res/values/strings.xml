@@ -147,11 +147,9 @@
     <string name="TxtTermosCond">Temos e condições</string>
     <string name="TxtCert">Certificações</string>
     <string name="TxtLogout">Fazer logout</string>
+    <string name="TxtClaro">Claro</string>
+    <string name="TxtEscuro">Escuro</string>
 
-    <string-array name="exibPaislist">
-        <item>RUS</item>
-        <item>BRA</item>
-    </string-array>
 
     <!--    String tela Info Hotel-->
     <string name="TxtNomeHotel">Hotel Cinelândia</string>

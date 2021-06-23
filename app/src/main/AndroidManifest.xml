@@ -13,11 +13,11 @@
         <activity android:name=".TelaHotel"/>
         <activity android:name=".TelaResultHotel" />
         <activity android:name=".Filtro" />
+        <activity android:name=".Conta" />
         <activity android:name=".Home" />
         <activity android:name=".Activity2" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Splache"/>
-        <activity android:name=".Conta">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Splache">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
