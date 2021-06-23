@@ -7,6 +7,17 @@
     android:background="#FFFFFF"
     tools:context=".Home">
 
+    <View
+        android:id="@+id/view"
+        android:layout_width="452dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:background="#074DC5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="335dp"
@@ -55,110 +66,18 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <View
-        android:id="@+id/view2"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/AzulClaro"
-        android:orientation="horizontal"
-        android:paddingStart="80dp"
-        android:paddingTop="10dp"
-        android:paddingEnd="80dp"
-        android:paddingBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <ImageView
-        android:id="@+id/BtnHistorico"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginEnd="50dp"
-        android:contentDescription="@string/descImgHist"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnHome"
-        app:layout_constraintHorizontal_bias="0.97"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.36"
-        app:srcCompat="@drawable/viagens_icon" />
-
-    <TextView
-        android:id="@+id/txtViewHistorico"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/TxtViagens"
-        android:textColor="@color/white"
-        android:textSize="12sp"
-        app:layout_constraintHorizontal_bias="0.220"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BtnHistorico" />
-
-    <ImageView
-        android:id="@+id/btnHome"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="10dp"
-        android:clickable="true"
-        android:contentDescription="@string/descImgHome"
-        app:layout_constraintTop_toTopOf="@+id/view2"
-        app:srcCompat="@drawable/home_icon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:text="@string/TxtHome"
-        android:textColor="@color/white"
-        android:textSize="12sp"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnHome" />
-
-    <ImageView
-        android:id="@+id/btnConta"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="5dp"
-        android:clickable="true"
-        android:contentDescription="@string/descImgConta"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/btnHome"
-        app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.25"
-        app:srcCompat="@drawable/conta_icon" />
-
-    <TextView
-        android:id="@+id/txtViewConta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/TxtConta"
-        android:layout_marginStart="10dp"
-        android:textColor="@color/white"
-        android:textSize="12sp"
-        app:layout_constraintHorizontal_bias="0.762"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnConta" />
-
     <Button
         android:id="@+id/BtnCriarLogin"
         android:layout_width="338dp"
         android:layout_height="50dp"
-        android:background="@drawable/borda2"
+        android:layout_marginTop="564dp"
         android:backgroundTint="#4169E1"
         android:text="@string/TxtContaOuLogin"
         android:textColor="#fff"
         app:layout_constraintHorizontal_bias="0.452"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/divider" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txtView"
@@ -203,7 +122,6 @@
         android:layout_width="337dp"
         android:layout_height="47dp"
         android:layout_marginTop="492dp"
-        android:background="@drawable/borda2"
         android:backgroundTint="#98FB98"
         android:text="@string/TxtVerMais"
         android:textColor="#008000"
@@ -235,6 +153,78 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/sino" />
 
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="676dp"
+        android:clickable="true"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_icon" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="53dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:clickable="true"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/conta_icon" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="33dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="680dp"
+        android:clickable="true"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/viagens_icon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="708dp"
+        android:text="@string/TxtViagens"
+        android:textColor="#FFFFFF"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="708dp"
+        android:text="@string/TxtHome"
+        android:textColor="#00D1FF"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="708dp"
+        android:text="@string/TxtConta"
+        android:textColor="#FFFFFF"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="330dp"
@@ -260,7 +250,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/BtnFiltro"
+        android:id="@+id/imgBtnFiltro"
         android:layout_width="47dp"
         android:layout_height="52dp"
         android:layout_marginTop="125dp"
