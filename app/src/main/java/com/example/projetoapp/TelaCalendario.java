@@ -81,8 +81,8 @@ public class TelaCalendario extends AppCompatActivity {
 
                 String dataInOut="Check in "+data+"Check Out "+dataOut;
 
-                GlobalClass globalClass=(GlobalClass)getApplicationContext();
-                globalClass.setDataInOut(dataInOut);
+                //GlobalClass globalClass=(GlobalClass)getApplicationContext();
+                //globalClass.setDataInOut(dataInOut);
             }
         });
 

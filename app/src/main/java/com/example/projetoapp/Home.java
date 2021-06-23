@@ -4,12 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Home extends AppCompatActivity {
     Button BtnVerMais;
     Button BtnCriarLogin;
+    ImageButton BtnFiltro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +35,15 @@ public class Home extends AppCompatActivity {
             public void onClick (View v){
                 Intent login = new Intent(getApplicationContext(), Activity2.class);
                 startActivity(login);
+            }
+        });
+
+        BtnFiltro=(ImageButton) findViewById(R.id.imgBtnFiltro);
+        BtnFiltro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View v){
+                Intent filtro = new Intent(getApplicationContext(), Filtro.class);
+                startActivity(filtro);
             }
         });
     }
