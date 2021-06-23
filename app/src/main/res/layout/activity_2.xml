@@ -207,7 +207,7 @@
         android:enabled="true"
         android:text="@string/TxtBtnLogar"
         android:textColor="@color/white"
-        app:background="@drawable/borda"
+        app:background="@drawable/borda_aredondada"
         app:backgroundTint="@color/AzulClaro"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

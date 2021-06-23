@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoricoDeReserva">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="68dp"
+        android:drawingCacheQuality="high"
+        android:fontFamily="@font/roboto"
+        android:letterSpacing="0.05"
+        android:text="@string/txtHistoricoViagem"
+        android:textColor="@color/azulEscuro"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="168dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/circulo1"
+        android:backgroundTint="#D8E9FB"
+        android:contentDescription="@string/descImgDesenhoHisteVazio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/viagemmala" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="248dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/txtHistoricoMensagem"
+        android:textAlignment="center"
+        android:textColor="@color/azulEscuro"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+    <Button
+        android:id="@+id/BtnMostraRecomendados"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/borda"
+        android:backgroundTint="@color/AzulClaro"
+        android:text="@string/txtHistoricoVerDestinos"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/AzulClaro"
+        android:orientation="horizontal"
+        android:paddingStart="80dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="80dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/BtnHistorico"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="50dp"
+        android:contentDescription="@string/descImgHist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnHome"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.36"
+        app:srcCompat="@drawable/viagensativo_icon" />
+
+    <TextView
+        android:id="@+id/txtViewHistorico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TxtViagens"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.220"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnHistorico" />
+
+    <ImageView
+        android:id="@+id/btnHome"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:contentDescription="@string/descImgHome"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:srcCompat="@drawable/homeinativo_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/TxtHome"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHome" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:contentDescription="@string/descImgConta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnHome"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/conta_icon" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TxtConta"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

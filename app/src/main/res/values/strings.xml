@@ -32,6 +32,10 @@
     <string name="TxtConta">Conta</string>
     <string name="TxtProcurar">Procurar por um destino</string>
 
+    <string name="txtHistoricoViagem">Viagens</string>
+    <string name="txtHistoricoMensagem">Você ainda não tem nem uma reserva. Quer reservar algum hotel?</string>
+    <string name="txtHistoricoVerDestinos">Ver destinos</string>
+
     <!--    Strings Tela Filtro-->
     <string name="TxtOrdenarFiltrar">Ordenar e filtrar</string>
     <string name="TxtLimpar">Limpar</string>
@@ -167,7 +171,7 @@
     <string name="TxtSevisos5">Frigobar</string>
     <string name="TxtSelctData">Selecione a Data</string>
 
-<!--    tela calendario-->
+    <!--    tela calendario-->
     <string name="CkeckIn">Chek-in</string>
     <string name="Ckeckout">Chek-out</string>
     <string name="DataCheckIN">16 de Mai</string>
@@ -196,6 +200,10 @@
     <string name="descImgLocalizacao">Icon Localização</string>
     <string name="descImgSeta">seta para voltar para home</string>
     <string name="title_activity_tela_reultado_hotel">ScrollingActivity</string>
+    <string name="descImgDesenhoHisteVazio">Icon de moça com mala</string>
+    <string name="descImgHist">Icon de mala Para tela de Historico de reserva</string>
+    <string name="descImgHome">Icon de home Para tela de Home</string>
+    <string name="descImgConta">Icon de user Para tela de conta de usuario</string>
 
 
     <string name="action_settings">Settings</string>

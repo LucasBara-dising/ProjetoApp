@@ -19,15 +19,6 @@ public class TelaHotel extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_hotel2);
 
-        //TENTATIVA DE ENVIAR DADOS DE UMA TELA PARA OUTRA
-
-//        GlobalClass globalClass=(GlobalClass)getApplicationContext();
-//        TextView dataInOut=findViewById(R.id.txtviewdata);
-//        dataInOut.setText(GlobalClass.getProcessName());
-//        Intent intent=getIntent();
-//        String dataInOut=intent.getStringExtra(TelaCalendario.EXTRA_TEXT);
-//        txtviewdata.setText(dataInOut);
-
 
         //abiri o gogle maps ao clicar no endereço(precisa de coodenada para abrir)
         txtLocHotel=findViewById(R.id.txtLocHotel);

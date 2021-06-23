@@ -10,12 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".TelaCalendario"/>
-        <activity android:name=".TelaHotel"/>
-        <activity android:name=".TelaResultHotel" />
-        <activity android:name=".Filtro" />
-        <activity android:name=".Home" />
+        <activity android:name=".Filtro"/>
+        <activity android:name=".TelaHotel"
+            android:parentActivityName=".TelaCalendario"/>
         <activity android:name=".Activity2" />
+        <activity android:name=".HistoricoDeReserva" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".TelaResultHotel" />
+        <activity android:name=".Home" />
         <activity android:name=".Splache">
 
             <intent-filter>
