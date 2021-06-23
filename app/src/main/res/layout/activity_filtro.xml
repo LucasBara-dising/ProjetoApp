@@ -208,7 +208,7 @@
                     android:background="@drawable/my_button"
                     android:checked="false"
                     android:text="@string/TxtUM"
-                    android:textColor="@drawable/my_button"
+                    android:textColor="@drawable/my_button_text"
                     android:textOff="@string/TxtUM"
                     android:textOn="@string/TxtUM"
                     android:textSize="20sp" />
@@ -222,7 +222,7 @@
                     android:background="@drawable/my_button"
                     android:checked="false"
                     android:text="@string/TxtDOIS"
-                    android:textColor="@drawable/my_button"
+                    android:textColor="@drawable/my_button_text"
                     android:textOff="@string/TxtDOIS"
                     android:textOn="@string/TxtDOIS"
                     android:textSize="20sp" />
@@ -236,7 +236,7 @@
                     android:background="@drawable/my_button"
                     android:checked="false"
                     android:text="@string/TxtTRES"
-                    android:textColor="@drawable/my_button"
+                    android:textColor="@drawable/my_button_text"
                     android:textOff="@string/TxtTRES"
                     android:textOn="@string/TxtTRES"
                     android:textSize="20sp" />
@@ -250,7 +250,7 @@
                     android:background="@drawable/my_button"
                     android:checked="false"
                     android:text="@string/TxtQUATRO"
-                    android:textColor="@drawable/my_button"
+                    android:textColor="@drawable/my_button_text"
                     android:textOff="@string/TxtQUATRO"
                     android:textOn="@string/TxtQUATRO"
                     android:textSize="20sp" />
@@ -264,7 +264,7 @@
                     android:background="@drawable/my_button"
                     android:checked="false"
                     android:text="@string/TxtUM"
-                    android:textColor="@drawable/my_button"
+                    android:textColor="@drawable/my_button_text"
                     android:textOff="@string/TxtCINCO"
                     android:textOn="@string/TxtCINCO"
                     android:textSize="20sp" />
