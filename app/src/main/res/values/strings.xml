@@ -129,6 +129,7 @@
     </string-array>
 
     <!--    String tela Conta-->
+    <string name="TxtMikhailKhak">Mikhail Khakova</string>
     <string name="TxtMikhailEmail">mikhail.khak@gmail.com</string>
     <string name="TxtPontosDisp">Pontos disponíveis</string>
     <string name="TxtPontZERO">0</string>
@@ -147,6 +148,10 @@
     <string name="TxtCert">Certificações</string>
     <string name="TxtLogout">Fazer logout</string>
 
+    <string-array name="exibPaislist">
+        <item>RUS</item>
+        <item>BRA</item>
+    </string-array>
 
     <!--    String tela Info Hotel-->
     <string name="TxtNomeHotel">Hotel Cinelândia</string>
