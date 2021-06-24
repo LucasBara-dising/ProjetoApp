@@ -111,10 +111,10 @@
 
                 <Spinner
                     android:id="@+id/spinner_countries"
-                    android:layout_width="wrap_content"
+                    android:layout_width="130dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="258dp"
-                    android:layout_marginTop="126dp"
+                    android:layout_marginStart="248dp"
+                    android:layout_marginTop="120dp"
                     android:spinnerMode="dropdown"
                     app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -140,19 +140,19 @@
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="380dp"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="5dp"
                 android:background="#FFFFFF"
+                android:paddingStart="15dp"
                 android:text="@string/TxtInfoConta"
                 android:textAlignment="textStart"
-                android:textAllCaps="false"
-                android:paddingStart="15dp"/>
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/button4"
-                android:layout_width="380dp"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="1dp"
@@ -184,7 +184,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="10dp"
                 android:buttonTint="#005de8"
-                android:checked="true"
+                android:checked="false"
                 android:text="@string/TxtClaro" />
 
             <RadioButton
@@ -214,7 +214,7 @@
 
             <Button
                 android:id="@+id/button5"
-                android:layout_width="380dp"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="12dp"
@@ -241,7 +241,7 @@
 
             <Button
                 android:id="@+id/button6"
-                android:layout_width="380dp"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="12dp"
@@ -268,7 +268,7 @@
 
             <Button
                 android:id="@+id/button8"
-                android:layout_width="380dp"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="12dp"
@@ -280,7 +280,7 @@
 
             <Button
                 android:id="@+id/button10"
-                android:layout_width="380dp"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="1dp"
@@ -293,9 +293,9 @@
 
             <Button
                 android:id="@+id/btnLogout"
-                android:layout_width="380dp"
+                android:layout_width="372dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="45dp"
                 android:background="#005de8"
@@ -310,35 +310,6 @@
                 android:layout_width="420dp"
                 android:layout_height="68dp"
                 app:cardBackgroundColor="#074DC5" >
-
-                <ImageView
-                    android:id="@+id/imgBtnHome"
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="-10dp"
-                    android:clickable="true"
-                    app:srcCompat="@drawable/homeinativo_icon" />
-
-                <ImageView
-                    android:id="@+id/imgBtnConta"
-                    android:layout_width="53dp"
-                    android:layout_height="47dp"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="60dp"
-                    android:clickable="true"
-                    app:srcCompat="@drawable/contaativo_icon" />
-
-                <ImageView
-                    android:id="@+id/imgBtnViagens"
-                    android:layout_width="33dp"
-                    android:layout_height="27dp"
-                    android:layout_gravity="start"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="60dp"
-                    android:clickable="true"
-                    app:srcCompat="@drawable/viagens_icon" />
 
                 <TextView
                     android:id="@+id/textView40"
@@ -368,6 +339,41 @@
                     android:layout_marginEnd="68dp"
                     android:text="@string/TxtConta"
                     android:textColor="#00D1FF" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnHome"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="-10dp"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:background="#00FFFFFF"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/homeinativo_icon" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnViagens"
+                    android:layout_width="33dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="60dp"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/viagens_icon"
+                    android:background="#00FFFFFF"
+                    android:scaleType="centerInside" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnConta"
+                    android:layout_width="53dp"
+                    android:layout_height="47dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/contaativo_icon"
+                    android:background="#00FFFFFF"
+                    android:scaleType="centerInside" />
             </androidx.cardview.widget.CardView>
 
 

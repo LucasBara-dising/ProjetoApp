@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -17,16 +16,44 @@ import java.util.ArrayList;
 public class Conta extends AppCompatActivity {
     private ArrayList<ContryItem> mCountryList;
     private ContryAdapter mAdapter;
-    private ImageView ImgHome;
-    private ImageView ImgViagens;
+    private ImageButton ImgHome;
     private ImageButton ImgVoltaParaHome;
-    private Button btnLogout;
+    private Button BtnLogout;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conta);
+
+
+        ImgHome= (ImageButton) findViewById(R.id.imgBtnHome);
+        ImgHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent voltarHome2 = new Intent(getApplicationContext(), Home.class);
+                startActivity(voltarHome2);
+            }
+        });
+
+        ImgVoltaParaHome= (ImageButton) findViewById(R.id.imgBtnVoltaHome4);
+        ImgVoltaParaHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent voltarHome = new Intent(getApplicationContext(), Home.class);
+                startActivity(voltarHome);
+            }
+        });
+
+        BtnLogout= (Button) findViewById(R.id.btnLogout);
+        BtnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            //ligaçao entre resulta e tela de hotel
+            public void onClick(View v) {
+                Intent voltarLogin = new Intent(getApplicationContext(), Activity2.class);
+                startActivity(voltarLogin);
+            }
+        });
 
         initList();
 
@@ -50,43 +77,11 @@ public class Conta extends AppCompatActivity {
             }
         });
 
-        ImgHome= (ImageView) findViewById(R.id.imgBtnHome);
-        ImgHome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Home();
-            }
-        });
-
-        ImgVoltaParaHome= (ImageButton) findViewById(R.id.ImgBtnVoltaHome);
-        ImgVoltaParaHome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Home();
-            }
-        });
-
-        btnLogout= (Button) findViewById(R.id.btnLogout);
-        btnLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            //ligaçao entre resulta e tela de hotel
-            public void onClick(View v) {
-                TelaLogin();
-            }
-        });
     }
 
     private void initList(){
         mCountryList = new ArrayList<>();
         mCountryList.add(new ContryItem("RUS ", R.drawable.russia));
         mCountryList.add(new ContryItem("BRA ", R.drawable.brazil));
-    }
-    public void Home(){
-        Intent voltarHome = new Intent(getApplicationContext(), Home.class);
-        startActivity(voltarHome);
-    }
-    public void TelaLogin(){
-        Intent voltarLogin = new Intent(getApplicationContext(), Activity2.class);
-        startActivity(voltarLogin);
     }
 }

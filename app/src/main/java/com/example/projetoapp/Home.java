@@ -5,16 +5,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Home extends AppCompatActivity {
-    Button BtnVerMais;
-    Button BtnCriarLogin;
-    ImageButton BtnFiltro;
-    private ImageView ImgConta;
-    private ImageView ImgViagens;
+    private Button BtnVerMais;
+    private Button BtnCriarLogin;
+    private ImageButton BtnFiltro;
+    private ImageButton ImgConta2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,16 +48,13 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        ImgConta= (ImageView) findViewById(R.id.imgBtnConta2);
-        ImgConta.setOnClickListener(new View.OnClickListener() {
+        ImgConta2= (ImageButton) findViewById(R.id.imgBtnConta2);
+        ImgConta2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Conta();
+                Intent irConta = new Intent(getApplicationContext(), Conta.class);
+                startActivity(irConta);
             }
         });
-    }
-    public void Conta(){
-        Intent irConta = new Intent(getApplicationContext(), Conta.class);
-        startActivity(irConta);
     }
 }
