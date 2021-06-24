@@ -18,8 +18,6 @@ public class TelaCalendario extends AppCompatActivity {
     TextView txtviewCheckOut;
     CalendarView calendarDataReserva;
 
-    //public static final String EXTRA_TEXT="com.exemple.application.exameple.projetoapp";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,8 +79,6 @@ public class TelaCalendario extends AppCompatActivity {
 
                 String dataInOut="Check in "+data+"Check Out "+dataOut;
 
-                //GlobalClass globalClass=(GlobalClass)getApplicationContext();
-                //globalClass.setDataInOut(dataInOut);
             }
         });
 
