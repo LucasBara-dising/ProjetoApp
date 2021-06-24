@@ -10,13 +10,91 @@
     <View
         android:id="@+id/view"
         android:layout_width="452dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="28dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="70dp"
         android:background="#074DC5"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <ImageButton
+        android:id="@+id/imgBtnConta2"
+        android:layout_width="53dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="718dp"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/conta_icon" />
+
+    <ImageButton
+        android:id="@+id/imgBtnViagens2"
+        android:layout_width="33dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="718dp"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/viagens_icon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="746dp"
+        android:text="@string/TxtViagens"
+        android:textColor="#FFFFFF"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="746dp"
+        android:text="@string/TxtHome"
+        android:textColor="#00D1FF"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="746dp"
+        android:text="@string/TxtConta"
+        android:textColor="#FFFFFF"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imgBtnHome2"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="714dp"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_icon" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -152,84 +230,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/sino" />
-
-    <ImageButton
-        android:id="@+id/imgBtnHome2"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="676dp"
-        android:background="#00FFFFFF"
-        android:clickable="true"
-        android:scaleType="centerInside"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/home_icon" />
-
-    <ImageButton
-        android:id="@+id/imgBtnConta2"
-        android:layout_width="53dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="680dp"
-        android:background="#00FFFFFF"
-        android:clickable="true"
-        android:scaleType="centerInside"
-        app:layout_constraintHorizontal_bias="0.849"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/conta_icon" />
-
-    <ImageButton
-        android:id="@+id/imgBtnViagens2"
-        android:layout_width="33dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="680dp"
-        android:background="#00FFFFFF"
-        android:clickable="true"
-        android:scaleType="centerInside"
-        app:layout_constraintHorizontal_bias="0.153"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/viagens_icon" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="708dp"
-        android:text="@string/TxtViagens"
-        android:textColor="#FFFFFF"
-        app:layout_constraintHorizontal_bias="0.136"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="708dp"
-        android:text="@string/TxtHome"
-        android:textColor="#00D1FF"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="708dp"
-        android:text="@string/TxtConta"
-        android:textColor="#FFFFFF"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"

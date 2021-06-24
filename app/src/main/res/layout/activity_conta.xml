@@ -177,25 +177,30 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <RadioButton
-                android:id="@+id/radioButton"
+            <Switch
+                android:id="@+id/switch1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="10dp"
-                android:buttonTint="#005de8"
-                android:checked="false"
-                android:text="@string/TxtClaro" />
+                android:buttonTint="#005DE8"
+                android:switchPadding="9dp"
+                android:text="@string/TxtClaro"
+                android:thumbTint="#005DE8"
+                android:trackTint="#005DE8"
+                tools:checked="true" />
 
-            <RadioButton
-                android:id="@+id/radioButton2"
+            <Switch
+                android:id="@+id/switch2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="#005DE8"
+                android:text="@string/TxtEscuro"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="5dp"
-                android:buttonTint="#005de8"
-                android:checked="false"
-                android:text="@string/TxtEscuro" />
+                android:thumbTint="#005DE8"
+                android:trackTint="#005DE8"
+                tools:checked="false" />
 
             <TextView
                 android:id="@+id/txtView35"
@@ -319,7 +324,7 @@
                     android:textColor="#FFFFFF"
                     android:layout_gravity="start"
                     android:layout_marginTop="40dp"
-                    android:layout_marginStart="52dp" />
+                    android:layout_marginStart="42dp" />
 
                 <TextView
                     android:id="@+id/textView41"
@@ -327,6 +332,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="16dp"
+                    android:layout_marginStart="-10dp"
                     android:text="@string/TxtHome"
                     android:textColor="#FFFFFF" />
 
@@ -345,6 +351,7 @@
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:layout_marginTop="-10dp"
+                    android:layout_marginStart="-10dp"
                     android:clickable="true"
                     android:layout_gravity="center"
                     android:background="#00FFFFFF"
@@ -356,12 +363,12 @@
                     android:layout_width="33dp"
                     android:layout_height="27dp"
                     android:layout_gravity="start"
+                    android:layout_marginStart="50dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginStart="60dp"
-                    android:clickable="true"
-                    app:srcCompat="@drawable/viagens_icon"
                     android:background="#00FFFFFF"
-                    android:scaleType="centerInside" />
+                    android:clickable="true"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/viagens_icon" />
 
                 <ImageButton
                     android:id="@+id/imgBtnConta"
