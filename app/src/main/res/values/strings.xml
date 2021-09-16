@@ -23,8 +23,8 @@
     <string name="TxtOlaMikhail">Olá, Mikhail!</string>
     <string name="TxtSubtitleHome">Escolha onde deseja se hospedar.</string>
     <string name="TxtBarraPesquisa">Pesquise um destino</string>
-    <string name="TxtRecomendados">Recomendados</string>
-    <string name="TxtLegendaRecomendados">Hotéis que lhe oferecem mais flexibilidade.</string>
+    <string name="TxtRecomendados">Categorias</string>
+    <string name="TxtLegendaRecomendados">Espetáculos</string>
     <string name="TxtVerMais">Ver Mais</string>
     <string name="TxtContaOuLogin">Criar conta ou fazer login</string>
     <string name="TxtViagens">Viagens</string>

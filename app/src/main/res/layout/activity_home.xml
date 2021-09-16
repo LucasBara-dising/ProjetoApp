@@ -11,12 +11,11 @@
         android:id="@+id/view"
         android:layout_width="452dp"
         android:layout_height="78dp"
-        android:layout_marginTop="70dp"
         android:background="#074DC5"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toTopOf="@+id/imgBtnHome2" />
 
     <ImageButton
         android:id="@+id/imgBtnConta2"
@@ -96,50 +95,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/home_icon" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="335dp"
-        android:layout_height="540dp"
-        android:layout_marginTop="100dp"
-        app:layout_constraintHorizontal_bias="0.434"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hotel_renaissance_sao_paulo_1" />
-
     <View
         android:id="@+id/myRectangleView2"
         android:layout_width="469dp"
         android:layout_height="150dp"
         android:background="@drawable/retangulo"
         app:layout_constraintHorizontal_bias="0.879"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txtView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="@string/TxtSubtitleHome"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintHorizontal_bias="0.217"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txtView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="@string/TxtOlaMikhail"
-        android:textColor="@color/white"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -153,19 +114,6 @@
         android:text="@string/TxtContaOuLogin"
         android:textColor="#fff"
         app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txtView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="224dp"
-        android:text="@string/TxtLegendaRecomendados"
-        android:textColor="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintHorizontal_bias="0.248"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -190,7 +138,7 @@
         android:textColor="@color/black"
         android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -224,8 +172,8 @@
         android:id="@+id/imageView12"
         android:layout_width="32dp"
         android:layout_height="33dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintHorizontal_bias="0.818"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -237,7 +185,7 @@
         android:layout_height="38dp"
         android:layout_gravity="center"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="82dp"
         android:autofillHints="@string/TxtProcurar"
         android:background="@drawable/borda1"
         android:backgroundTint="#F1F1F1"
@@ -255,11 +203,90 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <HorizontalScrollView
+        android:layout_width="409dp"
+        android:layout_height="330dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="220dp"
+                android:backgroundTint="#FFFFFF"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/circulo_preto_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="-71dp"
+                android:backgroundTint="#FFFFFF"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/circulo_preto_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="-71dp"
+                android:backgroundTint="#FFFFFF"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/circulo_preto_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="-71dp"
+                android:backgroundTint="#FFFFFF"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/circulo_preto_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="335dp"
+                android:layout_marginTop="-71dp"
+                android:backgroundTint="#FFFFFF"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/circulo_preto_2" />
+
+            <TextView
+                android:id="@+id/txtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:layout_marginStart="37dp"
+                android:text="@string/TxtLegendaRecomendados"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
     <ImageButton
         android:id="@+id/imgBtnFiltro"
         android:layout_width="47dp"
         android:layout_height="52dp"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="75dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="centerInside"
         app:layout_constraintHorizontal_bias="0.851"
