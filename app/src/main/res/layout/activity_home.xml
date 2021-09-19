@@ -158,7 +158,12 @@
             <HorizontalScrollView
                 android:id="@+id/horizontalScrollView3"
                 android:layout_width="416dp"
-                android:layout_height="75dp">
+                android:layout_height="75dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                android:scrollbarSize="0dp"
+                android:visibility="visible"
+                tools:visibility="visible">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -236,7 +241,8 @@
             <HorizontalScrollView
                 android:layout_width="411dp"
                 android:layout_height="135dp"
-                android:layout_marginTop="0dp">
+                android:layout_marginTop="0dp"
+                android:scrollbarSize="0dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -423,7 +429,8 @@
 
             <HorizontalScrollView
                 android:layout_width="411dp"
-                android:layout_height="135dp">
+                android:layout_height="135dp"
+                android:scrollbarSize="0dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
