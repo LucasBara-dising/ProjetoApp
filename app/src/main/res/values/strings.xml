@@ -25,8 +25,12 @@
     <string name="TxtBarraPesquisa">Pesquise um destino</string>
     <string name="TxtCategorias">Categorias</string>
     <string name="TxtDestaques">Destaques</string>
-    <string name="TxtShow">Show</string>
+    <string name="TxtShows">Shows</string>
     <string name="TxtEspetaculos">Espetáculos</string>
+    <string name="TxtExposicoes">Exposições</string>
+    <string name="TxtStandUp">Stand-Up</string>
+    <string name="TxtPalestras">Palestras</string>
+    <string name="TxtEventos">Eventos</string>
     <string name="TxtVerMais">Ver Mais</string>
     <string name="TxtContaOuLogin">Criar conta ou fazer login</string>
     <string name="TxtViagens">Viagens</string>
